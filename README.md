@@ -1,2 +1,2 @@
-# civica-
+# civica
 Guía interactiva de cívica 
