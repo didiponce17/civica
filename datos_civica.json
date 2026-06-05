@@ -1,0 +1,741 @@
+{
+  "titulo": "Educación Cívica — Quinto Año",
+  "descripcion": "Resumen de estudio interactivo de Educación Cívica para quinto año de colegio en Costa Rica",
+  "temas": [
+    {
+      "id": "tema4",
+      "numero": 4,
+      "titulo": "Políticas universales: salud y seguridad social",
+      "emoji": "🏥",
+      "subtemas": [
+        {
+          "id": "t4_salud_derecho",
+          "titulo": "La salud como derecho universal",
+          "resumen": "La salud no es un privilegio, es un derecho que tiene toda persona. La OMS dice que los gobiernos deben crear condiciones para que la gente viva saludablemente: acceso a servicios médicos, trabajo seguro, vivienda adecuada y alimentación nutritiva.",
+          "analisis": "Este derecho es la base de todo el sistema de salud de Costa Rica. La CCSS existe porque el país decidió que la salud es universal. Cada ley, reglamento e institución de salud se fundamenta en esta idea.",
+          "puntosClave": [
+            "La salud es un derecho universal reconocido internacionalmente",
+            "Los Estados están obligados a garantizar servicios de salud accesibles",
+            "Incluye condiciones de trabajo seguro, vivienda adecuada y alimentación nutritiva",
+            "En Costa Rica, la CCSS administra los seguros sociales obligatorios"
+          ],
+          "palabrasClave": [
+            {"termino": "Derecho universal", "definicion": "Algo que le corresponde a todas las personas sin excepción"},
+            {"termino": "OMS", "definicion": "Organización Mundial de la Salud; define estándares globales de salud"},
+            {"termino": "Seguro social obligatorio", "definicion": "Sistema al que todos los trabajadores deben contribuir"}
+          ],
+          "porQueImporta": "Cada vez que vas al EBAIS o a un hospital de la Caja, estás usando un derecho que el país te garantiza. Si trabajás o tus papás trabajan, parte del salario va para tu atención médica.",
+          "datoCurioso": "Costa Rica es uno de los pocos países de América Latina donde el seguro social cubre a prácticamente toda la población, incluyendo trabajadores independientes."
+        },
+        {
+          "id": "t4_ccss",
+          "titulo": "Ley de creación de la CCSS",
+          "resumen": "La Caja Costarricense del Seguro Social es una institución autónoma que administra los seguros sociales obligatorios en el país. Es la encargada de que toda persona tenga acceso a salud y pensiones.",
+          "analisis": "La CCSS conecta salud con trabajo: todos los trabajadores que reciben salario deben cotizar. Esto crea un sistema solidario donde los que trabajan financian la salud de todos. Los trabajadores independientes también deben afiliarse.",
+          "puntosClave": [
+            "La CCSS es una institución autónoma (artículo 1)",
+            "El seguro cubre: enfermedad, maternidad, invalidez, vejez y desempleo involuntario (artículo 2)",
+            "Todos los trabajadores con salario deben estar protegidos (artículo 3)",
+            "Los trabajadores independientes deben solicitar afiliación",
+            "Si el ingreso es menor al salario mínimo, el Estado cubre parcialmente la cuota patronal"
+          ],
+          "palabrasClave": [
+            {"termino": "CCSS", "definicion": "Caja Costarricense del Seguro Social; administra la salud pública y pensiones"},
+            {"termino": "Institución autónoma", "definicion": "Funciona de forma independiente del gobierno central"},
+            {"termino": "Cuota", "definicion": "Porcentaje del salario que se paga para mantener el seguro social"}
+          ],
+          "porQueImporta": "La CCSS es la razón por la que podés ir al doctor sin pagar consulta. Tus papás pagan una cuota mensual de su salario para financiar esto.",
+          "datoCurioso": "La CCSS fue creada en 1941 durante la presidencia de Rafael Ángel Calderón Guardia, como parte de las reformas sociales más importantes de Costa Rica."
+        },
+        {
+          "id": "t4_ley_salud",
+          "titulo": "Ley General de la Salud",
+          "resumen": "Es la ley que regula todo lo relacionado con la salud en Costa Rica: desde la obligación de los papás de cumplir controles médicos para sus hijos, hasta las normas de los alimentos que se venden en el país.",
+          "analisis": "Esta ley abarca dos grandes áreas: la salud de las personas (exámenes preventivos, vacunación, información sobre drogas) y la seguridad alimentaria (normas sobre producción y comercialización de alimentos). Ambas protegen tu bienestar diario.",
+          "puntosClave": [
+            "Los padres deben cumplir controles médicos de sus hijos (artículo 14)",
+            "Los alimentos para dieta estudiantil no se pueden comercializar (artículo 15)",
+            "Todos los estudiantes deben hacerse exámenes médicos y dentales preventivos (artículo 16)",
+            "Los exámenes preventivos de enfermedades crónicas son un derecho (artículo 17)",
+            "Las personas deben seguir disposiciones de seguridad para evitar accidentes (artículo 18)",
+            "Derecho a información sobre drogas en centros de salud (artículo 19)",
+            "Está prohibido comercializar alimentos alterados o falsificados (artículo 200)"
+          ],
+          "palabrasClave": [
+            {"termino": "Ley General de la Salud", "definicion": "Normativa que regula la salud pública en Costa Rica"},
+            {"termino": "Exámenes preventivos", "definicion": "Chequeos médicos para detectar enfermedades a tiempo"},
+            {"termino": "Alimento enriquecido", "definicion": "Producto al que se le agregan nutrientes adicionales (art. 198)"}
+          ],
+          "porQueImporta": "Esta ley protege tu salud desde que sos estudiante. Los exámenes en el cole, los comedores escolares y las reglas sobre la comida que comprás están regulados por esta ley.",
+          "datoCurioso": "El artículo 198 define como 'alimento enriquecido' al que se le agregan ingredientes recomendados por normas nutricionales, como la leche fortificada con vitaminas."
+        },
+        {
+          "id": "t4_vacunacion",
+          "titulo": "Ley Nacional de Vacunación",
+          "resumen": "Esta ley regula la selección, compra y disponibilidad de vacunas en todo el territorio nacional. El objetivo es que el Estado proteja la salud de toda la población mediante la vacunación obligatoria.",
+          "analisis": "La vacunación es obligatoria por ley y está vinculada al sistema educativo: no podés matricularte sin el carné de vacunas. Esto garantiza que la mayoría de la población esté protegida, lo cual beneficia a todos (inmunidad colectiva).",
+          "puntosClave": [
+            "La vacunación es obligatoria según esquema del Ministerio de Salud (art. 150)",
+            "Los padres deben velar por la vacunación de menores y personas con discapacidad (art. 151)",
+            "Los certificados de vacunación se deben mostrar pero no pueden ser retenidos (art. 152)",
+            "Para matricularse hay que presentar certificados de vacunación (art. 153)",
+            "El acceso a vacunación debe ser gratuito, especialmente para niñez e inmigrantes (art. 2)",
+            "Las autoridades deben hacer campañas educativas sobre vacunación (art. 14)",
+            "Extranjeros que quieran residir deben presentar certificados de vacunación (art. 172)"
+          ],
+          "palabrasClave": [
+            {"termino": "Vacunación obligatoria", "definicion": "Inyecciones que toda persona debe recibir por ley"},
+            {"termino": "Carné de salud", "definicion": "Documento donde se registran las vacunas recibidas"},
+            {"termino": "Revacunación", "definicion": "Dosis de refuerzo de una vacuna ya aplicada"}
+          ],
+          "porQueImporta": "Gracias a esta ley, Costa Rica ha logrado eliminar enfermedades graves. Cuando te piden el carné de vacunas para la matrícula, es por esta ley.",
+          "datoCurioso": "Costa Rica fue uno de los primeros países de América Latina en erradicar la poliomielitis gracias a su programa de vacunación."
+        },
+        {
+          "id": "t4_ivm",
+          "titulo": "Reglamento del Seguro de Invalidez, Vejez y Muerte",
+          "resumen": "Publicado en 1971, este reglamento regula las pensiones que da la CCSS a personas que ya no pueden trabajar por vejez o invalidez, y a los familiares cuando la persona asegurada fallece.",
+          "analisis": "El IVM es un sistema de solidaridad: los trabajadores activos financian las pensiones de quienes ya no pueden trabajar. Tiene cuatro tipos de pensión (vejez, invalidez, viudez y orfandad) y cada una tiene requisitos específicos de cuotas y edad.",
+          "puntosClave": [
+            "Pensión por vejez: 65 años con mínimo 300 cuotas (art. 5)",
+            "Pensión proporcional: 65 años con mínimo 180 cuotas (art. 24)",
+            "Pensión por invalidez: menor de 65 años, declarado inválido (art. 6)",
+            "Inválido: quien pierde 2/3 o más de su capacidad laboral (art. 8)",
+            "Pensión por viudez: cónyuge que convivía y dependía económicamente del fallecido (art. 9)",
+            "La CCSS reconoce derechos para parejas en unión libre (art. 10)",
+            "Pensión por orfandad: hijos menores de 18 años o estudiantes menores de 25 (art. 12)"
+          ],
+          "palabrasClave": [
+            {"termino": "Pensión por vejez", "definicion": "Pago mensual al jubilarse (65 años, 300 cuotas)"},
+            {"termino": "Pensión por invalidez", "definicion": "Pago mensual si no podés trabajar por discapacidad"},
+            {"termino": "Pensión por viudez", "definicion": "Pago mensual al cónyuge sobreviviente"},
+            {"termino": "Pensión por orfandad", "definicion": "Pago mensual a hijos del asegurado fallecido"},
+            {"termino": "Cuotas", "definicion": "Pagos mensuales que se hacen al seguro social"}
+          ],
+          "porQueImporta": "Cada vez que a alguien le rebajan plata del salario para la 'Caja', está ahorrando para su pensión futura. Si le pasa algo, su familia queda protegida.",
+          "datoCurioso": "Un trabajador que cotice desde los 20 años hasta los 65 acumulará más de 540 cuotas, garantizándose una pensión completa por vejez."
+        },
+        {
+          "id": "t4_sexualidad",
+          "titulo": "Políticas de sexualidad",
+          "resumen": "El decreto N.° 279135 estableció normativas sobre salud sexual y reproductiva. Se creó una comisión especial para apoyar al Ministerio de Salud en políticas sobre derechos sexuales y reproductivos.",
+          "analisis": "Estas políticas reconocen que la salud sexual es parte de los derechos humanos. La creación de consejerías en todas las instituciones de salud busca que cualquier persona pueda recibir información profesional y tomar decisiones informadas.",
+          "puntosClave": [
+            "Se creó la Comisión Interinstitucional sobre Salud y Derechos Reproductivos y Sexuales",
+            "Da apoyo técnico al Ministerio de Salud en políticas de salud sexual",
+            "Puede contar con asesoría de la Defensoría de los Habitantes, universidades, OPS y OMS",
+            "Toda institución de salud debe tener una 'Consejería en Salud y Derechos Reproductivos y Sexuales'",
+            "Las consejerías deben diseñar campañas educativas e informar sobre métodos anticonceptivos",
+            "Para anticoncepción quirúrgica se requiere consentimiento informado"
+          ],
+          "palabrasClave": [
+            {"termino": "Derechos reproductivos y sexuales", "definicion": "Derecho a decidir sobre tu cuerpo y salud sexual"},
+            {"termino": "Consentimiento informado", "definicion": "Aceptación voluntaria tras recibir toda la información"},
+            {"termino": "Consejería en salud", "definicion": "Servicio de orientación profesional en temas de sexualidad"}
+          ],
+          "porQueImporta": "Como adolescente, tenés derecho a recibir información clara y profesional sobre sexualidad en cualquier centro de salud. No es un tema tabú: es un derecho.",
+          "datoCurioso": "La adolescencia es una etapa clave para preparar un proyecto de vida. Los padres y el Estado deben promover la educación en sexualidad, según el mismo documento."
+        }
+      ]
+    },
+    {
+      "id": "tema5",
+      "numero": 5,
+      "titulo": "Políticas universales: trabajo",
+      "emoji": "💼",
+      "subtemas": [
+        {
+          "id": "t5_constitucion",
+          "titulo": "Constitución Política (artículos laborales)",
+          "resumen": "La Constitución Política establece derechos fundamentales sobre el trabajo en el capítulo de Garantías Sociales. Dice que trabajar es un derecho y una obligación, y que el Estado debe asegurar empleo digno para todos.",
+          "analisis": "Estos tres artículos forman la base del derecho laboral costarricense: el derecho al trabajo (art. 56), la garantía de un salario justo (art. 57) y la prohibición de discriminación (art. 68). Todo el Código de Trabajo se construye sobre estos principios constitucionales.",
+          "puntosClave": [
+            "El trabajo es un derecho del individuo y una obligación con la sociedad (art. 56)",
+            "El Estado debe procurar ocupación honesta y remunerada para todos (art. 56)",
+            "Todo trabajador tiene derecho a un salario mínimo que asegure bienestar (art. 57)",
+            "No puede haber discriminación salarial entre costarricenses y extranjeros (art. 68)"
+          ],
+          "palabrasClave": [
+            {"termino": "Garantías sociales", "definicion": "Derechos laborales y sociales protegidos por la Constitución"},
+            {"termino": "Salario mínimo", "definicion": "Cantidad mínima que un patrono debe pagar por ley"},
+            {"termino": "Discriminación salarial", "definicion": "Pagar diferente por el mismo trabajo según nacionalidad o grupo"}
+          ],
+          "porQueImporta": "Cuando empecés a trabajar, tenés derecho a un salario justo y a no ser discriminada. Estos derechos están en la Constitución, la ley más importante del país.",
+          "datoCurioso": "El artículo 56 no solo dice que trabajar es un derecho, sino también una obligación. El Estado ve el trabajo como algo necesario para la sociedad."
+        },
+        {
+          "id": "t5_figueres",
+          "titulo": "Discurso sobre jornales y salarios crecientes",
+          "resumen": "El 2 de noviembre de 1949, José Figueres dio el discurso 'Doctrina social y jornales crecientes'. Proponía que los salarios debían subir constantemente para mejorar la economía y la productividad.",
+          "analisis": "Figueres argumentaba algo contraintuitivo: pagar más no arruina los negocios, los hace más eficientes. Se eliminan actividades improductivas, se introducen nuevos métodos y la producción sube. Sus dos premisas eran: buen clima de negocios y aumento de productividad.",
+          "puntosClave": [
+            "Figueres era presidente de la Junta Fundadora de la Segunda República",
+            "Proponía una política de salarios crecientes",
+            "Mejores salarios conducen a mayor eficiencia empresarial",
+            "Se abandonan actividades menos productivas y se innova",
+            "Se sustentó en: clima de negocios favorable e incremento de productividad"
+          ],
+          "palabrasClave": [
+            {"termino": "Jornales crecientes", "definicion": "Salarios que aumentan progresivamente"},
+            {"termino": "Productividad", "definicion": "Cantidad de trabajo efectivo que se produce en un tiempo determinado"},
+            {"termino": "Segunda República", "definicion": "Período de Costa Rica después de la guerra civil de 1948"}
+          ],
+          "porQueImporta": "La idea de que los salarios deben ir subiendo es la base de por qué cada año se revisa el salario mínimo en Costa Rica. Es un concepto que sigue vigente.",
+          "datoCurioso": "Figueres argumentaba que pagar más a los trabajadores no arruina los negocios sino que los hace más eficientes, porque se eliminan las actividades menos productivas."
+        },
+        {
+          "id": "t5_codigo_trabajo",
+          "titulo": "Código de Trabajo",
+          "resumen": "Aprobado en 1943, es el documento más importante que regula las relaciones entre patronos y trabajadores. Cubre contratos, salarios, jornadas, riesgos laborales y protecciones especiales.",
+          "analisis": "El Código unificó leyes laborales que existían desde finales del siglo XIX pero que no cubrían a todos. Establece un equilibrio entre derechos y obligaciones: los trabajadores tienen protecciones, pero también deben cumplir con sus deberes. Los patronos tienen derechos de dirección pero también obligaciones claras.",
+          "puntosClave": [
+            "El trabajo es un derecho y una obligación de trabajadores y patronos",
+            "Las órdenes en toda empresa deben darse en español",
+            "El contrato puede ser verbal o escrito",
+            "Jornada diurna: 8 horas (5am-7pm); nocturna: 6 horas (7pm-5am)",
+            "El salario es inembargable excepto por pensión alimenticia (50%)",
+            "Prohibido despedir a trabajadoras embarazadas sin causa justificada",
+            "Se considera accidente de trabajo el ocurrido en trayecto hogar-trabajo (condiciones especiales)",
+            "El seguro contra riesgos del trabajo es obligatorio y universal (art. 201)"
+          ],
+          "palabrasClave": [
+            {"termino": "Código de Trabajo", "definicion": "Ley que regula las relaciones laborales en Costa Rica (1943)"},
+            {"termino": "Contrato de trabajo", "definicion": "Acuerdo entre patrono y trabajador sobre condiciones laborales"},
+            {"termino": "Jornada ordinaria", "definicion": "Horario regular de trabajo (8 horas diurnas, 6 nocturnas)"},
+            {"termino": "Preaviso", "definicion": "Aviso anticipado antes de terminar un contrato"},
+            {"termino": "Cesantía", "definicion": "Compensación económica al trabajador despedido sin causa justa"},
+            {"termino": "Riesgos del trabajo", "definicion": "Accidentes o enfermedades que ocurren por el trabajo"}
+          ],
+          "porQueImporta": "Cuando trabajés, estas reglas te van a proteger. Si te despiden injustamente, si te accidentás en el trabajo o si no te pagan bien, el Código de Trabajo te respalda.",
+          "datoCurioso": "El Código de Trabajo fue aprobado en 1943 junto con las Garantías Sociales, como parte de las reformas más importantes de la historia de Costa Rica."
+        },
+        {
+          "id": "t5_proteccion",
+          "titulo": "Ley de Protección al Trabajador",
+          "resumen": "La Ley N.° 7983 (año 2000) creó mecanismos para proteger el dinero de los trabajadores a largo plazo: fondos de capitalización, pensiones complementarias y más formas de asegurar el futuro económico.",
+          "analisis": "Esta ley complementa al IVM creando capas adicionales de protección. Los fondos de capitalización son del trabajador (no del patrono ni del Estado). Las pensiones complementarias permiten ahorrar más allá del régimen básico de la CCSS.",
+          "puntosClave": [
+            "Regula los fondos de capitalización laboral (propiedad de los trabajadores)",
+            "Busca universalizar las pensiones para adultos mayores en pobreza",
+            "Fortalece el Régimen de Invalidez, Vejez y Muerte de la CCSS",
+            "Autoriza y regula pensiones complementarias (públicas y privadas)",
+            "Establece mecanismos de supervisión del Sistema Nacional de Pensiones",
+            "Controla la correcta administración de los recursos de los trabajadores"
+          ],
+          "palabrasClave": [
+            {"termino": "Fondo de capitalización laboral", "definicion": "Ahorro forzoso del trabajador que puede retirar en ciertas condiciones"},
+            {"termino": "Pensiones complementarias", "definicion": "Pensiones adicionales al régimen básico de la CCSS"},
+            {"termino": "Sistema Nacional de Pensiones", "definicion": "Conjunto de todos los programas de pensiones del país"}
+          ],
+          "porQueImporta": "Parte de tu futuro salario irá a un fondo de ahorro que es tuyo. Cuando cambiés de trabajo o te jubilés, ese dinero lo podés retirar.",
+          "datoCurioso": "Gracias a esta ley, cuando un trabajador cambia de empleo puede retirar parte de su fondo de capitalización laboral. Es plata que se acumula mes a mes."
+        }
+      ]
+    },
+    {
+      "id": "tema6",
+      "numero": 6,
+      "titulo": "Políticas selectivas",
+      "emoji": "🏠",
+      "subtemas": [
+        {
+          "id": "t6_vivienda",
+          "titulo": "Políticas de vivienda social",
+          "resumen": "A diferencia de las políticas universales (para todos), las selectivas van dirigidas a grupos específicos. En vivienda, Costa Rica ha tenido programas desde los años 40 para dar casa a familias de escasos recursos.",
+          "analisis": "Las políticas de vivienda muestran cómo el Estado ha evolucionado: desde la Cooperativa de Casas Baratas (1942) hasta el INVU (1954), cada paso amplió el alcance. El artículo 65 de la Constitución elevó la vivienda social a nivel constitucional, haciéndola una prioridad nacional.",
+          "puntosClave": [
+            "De 1940 a 1945 se crearon la Junta Nacional de la Habitación y la Cooperativa de Casas Baratas",
+            "En 1942 se aprobó la Cooperativa de Casas Baratas para construir casas higiénicas a bajo precio",
+            "Las casas eran para peones, artesanos y empleados con salario menor a ₡250 al mes",
+            "Las casas eran inembargables y no se podían alquilar ni vender sin autorización",
+            "Estaban exentas de impuestos por 10 años",
+            "El artículo 65 de la Constitución elevó a precepto constitucional la vivienda de interés social",
+            "En 1954 se creó el INVU (Instituto Nacional de Vivienda y Urbanismo) mediante Ley 1788"
+          ],
+          "palabrasClave": [
+            {"termino": "Políticas selectivas", "definicion": "Acciones del Estado dirigidas a grupos específicos de la población"},
+            {"termino": "Vivienda de interés social", "definicion": "Casas accesibles para familias de bajos recursos"},
+            {"termino": "INVU", "definicion": "Instituto Nacional de Vivienda y Urbanismo"},
+            {"termino": "Cooperativa de Casas Baratas", "definicion": "Programa de vivienda accesible creado en 1942"}
+          ],
+          "porQueImporta": "Tener una casa digna es un derecho. Muchas familias costarricenses han podido tener su propia casa gracias a estos programas.",
+          "datoCurioso": "Las casas de la Cooperativa costaban máximo ₡4,000 colones incluyendo terreno y construcción, y se daban a personas sin propiedad que fueran padres de familia."
+        },
+        {
+          "id": "t6_asistencia",
+          "titulo": "Políticas de asistencia social y lucha contra la pobreza",
+          "resumen": "Son programas del Estado para ayudar a familias que no pueden cubrir sus necesidades básicas. Incluyen el Fodesaf, el IMAS y el régimen no contributivo de la CCSS.",
+          "analisis": "Estos tres programas se complementan: Fodesaf financia (es la fuente del dinero), IMAS ejecuta (llega directamente a las familias) y el régimen no contributivo protege a quienes nunca pudieron cotizar. Juntos forman una red de protección para los más vulnerables.",
+          "puntosClave": [
+            "Fodesaf: creado por Ley 5662 de 1974, financia programas sociales para personas de escasos recursos",
+            "Fodesaf financia programas de nutrición, comedores escolares y Red de Cuido Infantil",
+            "IMAS: creado por Ley 4760 de 1971, su fin es resolver la pobreza extrema",
+            "IMAS ofrece capacitación, financiamiento de ideas productivas y apoyo en desastres naturales",
+            "Régimen no contributivo: creado en 1975, para personas que no cotizaron al seguro social",
+            "Beneficiarios del régimen: adultos mayores, personas inválidas, viudas/os, huérfanos",
+            "El porcentaje de pobreza en Costa Rica se mantiene alrededor del 20% desde 1994"
+          ],
+          "palabrasClave": [
+            {"termino": "Fodesaf", "definicion": "Fondo de Desarrollo Social y Asignaciones Familiares; financia programas sociales"},
+            {"termino": "IMAS", "definicion": "Instituto Mixto de Ayuda Social; combate la pobreza extrema"},
+            {"termino": "Régimen no contributivo", "definicion": "Pensión para personas que nunca cotizaron al seguro social"},
+            {"termino": "Pobreza extrema", "definicion": "Cuando el ingreso es igual o inferior al costo de la canasta básica alimentaria"}
+          ],
+          "porQueImporta": "En Costa Rica el 20% de las personas son pobres desde 1994. Estos programas son la forma en que el Estado intenta reducir esa cifra y ayudar a los más necesitados.",
+          "datoCurioso": "Según el INEC, las personas se encuentran en pobreza extrema cuando su ingreso es igual o inferior al costo de la canasta básica alimentaria."
+        },
+        {
+          "id": "t6_educacion",
+          "titulo": "Políticas de equidad en educación",
+          "resumen": "Son programas que buscan que todos los jóvenes tengan las mismas oportunidades de estudiar, sin importar su situación económica. Incluyen becas, alimentación escolar y transferencias económicas.",
+          "analisis": "Estos programas atacan las principales razones por las que los jóvenes dejan de estudiar: falta de dinero (Avancemos/FONABE), falta de alimentación (Panea) y duplicidad de ayudas (la unificación en SUPRES). Son políticas selectivas porque se enfocan en quienes más lo necesitan.",
+          "puntosClave": [
+            "Avancemos: ejecutado por el IMAS, es una transferencia monetaria condicionada",
+            "La familia firma un contrato y se compromete a cumplir con el IMAS",
+            "Reduce pobreza, evita fracaso escolar y previene trabajo infantil",
+            "FONABE funcionó de 1997 a 2020; cerró por la Ley N.° 9903 que unificó becas en SUPRES",
+            "Actualmente las becas de postsecundaria las administra el IMAS",
+            "Panea: ofrece alimentación complementaria focalizada a estudiantes",
+            "Panea prioriza: familias de bajos ingresos, problemas nutricionales y riesgo psicosocial",
+            "Algunos comedores escolares abren en vacaciones en zonas vulnerables"
+          ],
+          "palabrasClave": [
+            {"termino": "Avancemos", "definicion": "Programa de becas condicionadas para que jóvenes no dejen el colegio"},
+            {"termino": "FONABE", "definicion": "Antiguo Fondo Nacional de Becas (cerró en 2020)"},
+            {"termino": "SUPRES", "definicion": "Sistema Único de Pagos Sociales, administrado por el IMAS"},
+            {"termino": "Panea", "definicion": "Programa de Alimentación y Nutrición del Escolar y del Adolescente"},
+            {"termino": "Transferencia monetaria condicionada", "definicion": "Dinero que se da a cambio de cumplir compromisos"}
+          ],
+          "porQueImporta": "Si vos o alguno de tus compañeros necesitan apoyo económico para seguir estudiando, estos programas existen para eso.",
+          "datoCurioso": "FONABE cerró en 2020 porque la Ley N.° 9903 unificó todas las becas en SUPRES administrado por el IMAS, para evitar duplicidades entre instituciones."
+        }
+      ]
+    }
+  ],
+  "conexiones": {
+    "descripcion": "Las políticas públicas de Costa Rica son como una mesa con tres patas: Salud, Trabajo y Apoyo a los más necesitados. Si una pata falla, la mesa se cae.",
+    "relaciones": [
+      "La CCSS (Tema 4) se financia con las cuotas de los trabajadores (Tema 5). Sin trabajo formal, no hay dinero para la salud pública.",
+      "El Código de Trabajo (Tema 5) obliga a los patronos a asegurar a sus empleados, conectando directamente con el seguro social (Tema 4).",
+      "El IMAS y Avancemos (Tema 6) ayudan a que jóvenes sigan estudiando, lo cual les permite conseguir mejor empleo (Tema 5) y acceder a mejor salud (Tema 4).",
+      "Fodesaf (Tema 6) financia programas del Ministerio de Salud (Tema 4) y del Ministerio de Educación (Tema 6), conectando la lucha contra la pobreza con salud y educación.",
+      "El Régimen no contributivo (Tema 6) existe para quienes no pudieron contribuir al sistema de pensiones (Tema 4/5), demostrando que las políticas selectivas complementan a las universales."
+    ],
+    "fraseParaRecordar": "Las políticas universales protegen a todos; las selectivas ayudan a quienes el sistema universal no alcanza."
+  },
+  "mapasConceptuales": [
+    {
+      "temaId": "tema4",
+      "titulo": "Salud y Seguridad Social",
+      "mermaid": "graph TD\n    A[🏥 Salud y Seguridad Social] --> B[CCSS]\n    A --> C[Ley General de Salud]\n    A --> D[Ley de Vacunación]\n    A --> E[Seguro IVM]\n    A --> F[Políticas de Sexualidad]\n    B --> B1[Seguro obligatorio]\n    B --> B2[Cubre enfermedad y vejez]\n    C --> C1[Exámenes preventivos]\n    C --> C2[Normas de alimentos]\n    D --> D1[Vacunación obligatoria]\n    D --> D2[Carné de salud]\n    E --> E1[Pensión por vejez]\n    E --> E2[Pensión por invalidez]\n    E --> E3[Pensión viudez/orfandad]\n    F --> F1[Comisión Interinstitucional]\n    F --> F2[Consejerías salud sexual]"
+    },
+    {
+      "temaId": "tema5",
+      "titulo": "Políticas de Trabajo",
+      "mermaid": "graph TD\n    A[💼 Políticas de Trabajo] --> B[Constitución Política]\n    A --> C[Discurso Figueres]\n    A --> D[Código de Trabajo]\n    A --> E[Ley Protección Trabajador]\n    B --> B1[Art 56: Trabajo es derecho]\n    B --> B2[Art 57: Salario mínimo]\n    B --> B3[Art 68: No discriminación]\n    C --> C1[Salarios crecientes]\n    C --> C2[Mayor productividad]\n    D --> D1[Contratos laborales]\n    D --> D2[Jornadas 8h día 6h noche]\n    D --> D3[Riesgos del trabajo]\n    D --> D4[Obligaciones patronales]\n    E --> E1[Fondos capitalización]\n    E --> E2[Pensiones complementarias]"
+    },
+    {
+      "temaId": "tema6",
+      "titulo": "Políticas Selectivas",
+      "mermaid": "graph TD\n    A[🏠 Políticas Selectivas] --> B[Vivienda Social]\n    A --> C[Asistencia Social]\n    A --> D[Equidad en Educación]\n    B --> B1[Cooperativa Casas Baratas]\n    B --> B2[INVU Ley 1788]\n    B --> B3[Art 65 Constitución]\n    C --> C1[Fodesaf]\n    C --> C2[IMAS]\n    C --> C3[Régimen no contributivo]\n    D --> D1[Avancemos]\n    D --> D2[FONABE y SUPRES]\n    D --> D3[Panea]\n    C1 --> C1a[Financia programas sociales]\n    C2 --> C2a[Combate pobreza extrema]\n    D1 --> D1a[Becas condicionadas]\n    D3 --> D3a[Alimentación escolar]"
+    },
+    {
+      "temaId": "general",
+      "titulo": "Conexión entre los 3 Temas",
+      "mermaid": "graph TD\n    A[📋 Políticas Públicas CR] --> B[Universales]\n    A --> C[Selectivas]\n    B --> D[🏥 Salud Tema 4]\n    B --> E[💼 Trabajo Tema 5]\n    C --> F[🏠 Apoyo focal Tema 6]\n    D --> G[CCSS financia salud]\n    E --> G\n    E --> H[Trabajo genera cuotas]\n    H --> G\n    F --> I[Vivienda social]\n    F --> J[IMAS y Fodesaf]\n    F --> K[Avancemos y Panea]\n    J --> L[Complementan lo universal]\n    K --> L"
+    }
+  ],
+  "guiaRapida": [
+    {"institucion": "CCSS", "año": "1941", "funcion": "Administra seguros sociales obligatorios", "tema": "Salud"},
+    {"institucion": "Ley General de Salud", "año": "—", "funcion": "Regula salud pública, alimentos, exámenes", "tema": "Salud"},
+    {"institucion": "Ley Nacional de Vacunación", "año": "—", "funcion": "Vacunación obligatoria y gratuita", "tema": "Salud"},
+    {"institucion": "Reglamento IVM", "año": "1971", "funcion": "Pensiones por vejez, invalidez y muerte", "tema": "Salud"},
+    {"institucion": "Políticas sexualidad", "año": "—", "funcion": "Derechos reproductivos y sexuales", "tema": "Salud"},
+    {"institucion": "Constitución Política", "año": "1949", "funcion": "Arts. 56, 57, 68: derecho al trabajo", "tema": "Trabajo"},
+    {"institucion": "Discurso Figueres", "año": "1949", "funcion": "Doctrina de salarios crecientes", "tema": "Trabajo"},
+    {"institucion": "Código de Trabajo", "año": "1943", "funcion": "Regula relaciones patrono-trabajador", "tema": "Trabajo"},
+    {"institucion": "Ley Protección Trabajador", "año": "2000", "funcion": "Fondos de capitalización y pensiones", "tema": "Trabajo"},
+    {"institucion": "Cooperativa Casas Baratas", "año": "1942", "funcion": "Vivienda accesible familias pobres", "tema": "Selectivas"},
+    {"institucion": "INVU", "año": "1954", "funcion": "Vivienda y urbanismo", "tema": "Selectivas"},
+    {"institucion": "Fodesaf", "año": "1974", "funcion": "Financia programas contra la pobreza", "tema": "Selectivas"},
+    {"institucion": "IMAS", "año": "1971", "funcion": "Combate la pobreza extrema", "tema": "Selectivas"},
+    {"institucion": "Régimen no contributivo", "año": "1975", "funcion": "Pensión para quienes no cotizaron", "tema": "Selectivas"},
+    {"institucion": "Avancemos", "año": "—", "funcion": "Becas condicionadas para secundaria", "tema": "Selectivas"},
+    {"institucion": "FONABE / SUPRES", "año": "1997-2020", "funcion": "Becas estudiantiles (unificadas en IMAS)", "tema": "Selectivas"},
+    {"institucion": "Panea", "año": "—", "funcion": "Alimentación escolar focalizada", "tema": "Selectivas"}
+  ],
+  "datosRapidos": [
+    "Jornada diurna: 8 horas (5am-7pm)",
+    "Jornada nocturna: 6 horas (7pm-5am)",
+    "Pensión por vejez: 65 años + 300 cuotas",
+    "Pensión proporcional: 65 años + 180 cuotas mínimo",
+    "Salario: Inembargable excepto pensión alimenticia (50%)",
+    "Pobreza en CR: ~20% desde 1994",
+    "Pobreza extrema: Ingreso ≤ canasta básica alimentaria"
+  ],
+  "preguntas": {
+    "tema4": {
+      "seleccionUnica": [
+        {
+          "pregunta": "¿Cuál es la principal función de la CCSS según su artículo 1?",
+          "opciones": ["Regular el comercio de alimentos", "Administrar los seguros sociales obligatorios en el país", "Gestionar los hospitales privados", "Controlar la vacunación de animales"],
+          "respuestaCorrecta": 1,
+          "explicacion": "La CCSS es una institución autónoma cuya función principal es administrar los seguros sociales obligatorios."
+        },
+        {
+          "pregunta": "Según el artículo 2, ¿cuáles riesgos cubre el seguro social obligatorio?",
+          "opciones": ["Solo enfermedad y vejez", "Enfermedad, maternidad, invalidez, vejez y desempleo involuntario", "Solo accidentes de trabajo", "Enfermedad y educación"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El artículo 2 establece que cubre enfermedad, maternidad, invalidez, vejez y desempleo involuntario."
+        },
+        {
+          "pregunta": "¿Qué establece el artículo 16 de la Ley General de la Salud?",
+          "opciones": ["Que los estudiantes pueden elegir si hacerse exámenes médicos", "Que solo estudiantes de primaria deben hacerse exámenes", "Que todos los estudiantes deben someterse a exámenes médicos y dentales preventivos", "Que los exámenes médicos son opcionales en escuelas privadas"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El artículo 16 obliga a todos los estudiantes a exámenes médicos y dentales preventivos en centros educativos públicos y privados."
+        },
+        {
+          "pregunta": "¿Qué documento es obligatorio presentar al matricularse en un centro educativo?",
+          "opciones": ["Certificado de notas del año anterior", "Certificado de vacunación", "Certificado de nacimiento únicamente", "Carné de la biblioteca"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El artículo 153 establece la obligatoriedad de presentar certificados de vacunación al matricularse."
+        },
+        {
+          "pregunta": "¿Cuántas cuotas mínimas se necesitan para la pensión por vejez completa?",
+          "opciones": ["180 cuotas", "240 cuotas", "300 cuotas", "360 cuotas"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El artículo 5 del Reglamento IVM indica que se necesitan al menos 300 cuotas con 65 años de edad."
+        },
+        {
+          "pregunta": "¿Qué se considera inválido según el artículo 8 del Reglamento IVM?",
+          "opciones": ["Quien pierda un tercio de su capacidad laboral", "Quien pierda dos terceras partes o más de su capacidad laboral", "Quien tenga más de 65 años", "Quien no tenga empleo por más de un año"],
+          "respuestaCorrecta": 1,
+          "explicacion": "Se considera inválido al asegurado que pierda 2/3 o más de su capacidad de desempeño laboral."
+        },
+        {
+          "pregunta": "¿Quiénes tienen derecho a pensión por orfandad?",
+          "opciones": ["Solo hijos menores de 15 años", "Hijos solteros menores de 18 años o menores de 25 si son estudiantes", "Solo hijos biológicos reconocidos", "Todos los familiares del asegurado fallecido"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El artículo 12 indica que la pensión es para hijos menores de 18 o estudiantes menores de 25 que dependían del asegurado."
+        },
+        {
+          "pregunta": "¿Qué organismo se creó con las políticas de sexualidad?",
+          "opciones": ["Ministerio de la Juventud", "Comisión Interinstitucional sobre Salud y Derechos Reproductivos y Sexuales", "Defensoría de la Mujer", "Instituto de la Familia"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El decreto creó la Comisión Interinstitucional sobre Salud y Derechos Reproductivos y Sexuales."
+        },
+        {
+          "pregunta": "¿Qué artículo prohíbe comercializar alimentos de la dieta estudiantil?",
+          "opciones": ["Artículo 14", "Artículo 15", "Artículo 16", "Artículo 17"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El artículo 15 establece que los alimentos para complementar la dieta estudiantil no pueden ser comercializados."
+        },
+        {
+          "pregunta": "¿Qué pasa si un trabajador independiente gana menos del salario mínimo?",
+          "opciones": ["No puede afiliarse a la CCSS", "Debe pagar la cuota completa", "El Estado cubre parcialmente la cuota patronal", "Queda exento de todo pago"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Si el ingreso es menor al salario mínimo legal, el aporte del Estado cubrirá parcialmente la ausencia de la cuota patronal."
+        }
+      ],
+      "verdaderoFalso": [
+        {
+          "afirmacion": "La vacunación en Costa Rica es voluntaria según la ley.",
+          "respuesta": false,
+          "explicacion": "La vacunación es obligatoria según el artículo 150 de la Ley General de Salud."
+        },
+        {
+          "afirmacion": "Los funcionarios de salud pueden retener los certificados de vacunación.",
+          "respuesta": false,
+          "explicacion": "El artículo 152 establece que los funcionarios no podrán retener dichos certificados."
+        },
+        {
+          "afirmacion": "La pensión por viudez se otorga al cónyuge que dependía económicamente del fallecido.",
+          "respuesta": true,
+          "explicacion": "Correcto, según el artículo 9 del Reglamento IVM."
+        },
+        {
+          "afirmacion": "La CCSS reconoce derechos de pensión solo para parejas casadas legalmente.",
+          "respuesta": false,
+          "explicacion": "El artículo 10 indica que la CCSS reconoce derechos tanto para matrimonio como unión libre."
+        },
+        {
+          "afirmacion": "Los extranjeros que quieran residir en CR no necesitan certificados de vacunación.",
+          "respuesta": false,
+          "explicacion": "El artículo 172 obliga a entregar certificados de vacunación junto a la solicitud de residencia."
+        },
+        {
+          "afirmacion": "Las personas tienen derecho a información sobre drogas en centros de salud.",
+          "respuesta": true,
+          "explicacion": "Según el artículo 19 de la Ley General de la Salud."
+        },
+        {
+          "afirmacion": "La pensión por vejez se puede obtener a los 60 años con 300 cuotas.",
+          "respuesta": false,
+          "explicacion": "La edad requerida es 65 años según el artículo 5 del Reglamento IVM."
+        }
+      ],
+      "pareos": [
+        {
+          "titulo": "Instituciones y funciones",
+          "columnaA": ["CCSS", "Pensión por invalidez", "Carné de salud", "Alimento enriquecido"],
+          "columnaB": ["Institución que administra seguros sociales obligatorios", "Pensión para quienes pierden 2/3 de su capacidad laboral", "Documento para registrar vacunas de menores de 7 años", "Producto al que se le agregan nutrientes adicionales"],
+          "respuestas": [0, 1, 2, 3]
+        },
+        {
+          "titulo": "Artículos y su contenido",
+          "columnaA": ["Artículo 150", "Artículo 16", "Artículo 15", "Artículo 200"],
+          "columnaB": ["Vacunación y revacunación obligatoria", "Exámenes médicos y dentales obligatorios para estudiantes", "Prohibición de comercializar alimentos de dieta estudiantil", "Prohibición de alimentos alterados o falsificados"],
+          "respuestas": [0, 1, 2, 3]
+        },
+        {
+          "titulo": "Tipos de pensión y requisitos",
+          "columnaA": ["Pensión por vejez", "Pensión por viudez", "Pensión por orfandad", "Pensión por invalidez"],
+          "columnaB": ["65 años y 300 cuotas mínimo", "Cónyuge que convivía y dependía del fallecido", "Hijos menores de 18 o estudiantes menores de 25", "Menor de 65 años declarado inválido"],
+          "respuestas": [0, 1, 2, 3]
+        }
+      ]
+    },
+    "tema5": {
+      "seleccionUnica": [
+        {
+          "pregunta": "Según el artículo 56 de la Constitución, el trabajo es:",
+          "opciones": ["Solo un derecho del individuo", "Solo una obligación con la sociedad", "Un derecho del individuo y una obligación con la sociedad", "Un privilegio para ciudadanos costarricenses"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El artículo 56 establece que el trabajo es tanto un derecho como una obligación social."
+        },
+        {
+          "pregunta": "¿Cuántas horas dura la jornada diurna ordinaria según el Código de Trabajo?",
+          "opciones": ["6 horas", "7 horas", "8 horas", "10 horas"],
+          "respuestaCorrecta": 2,
+          "explicacion": "La jornada diurna ordinaria es de 8 horas, entre las 5 y las 19 horas."
+        },
+        {
+          "pregunta": "¿En qué año fue aprobado el Código de Trabajo?",
+          "opciones": ["1941", "1943", "1949", "1971"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El Código de Trabajo fue aprobado en 1943."
+        },
+        {
+          "pregunta": "¿Qué proponía José Figueres en su discurso de 1949?",
+          "opciones": ["Reducir los salarios para atraer inversión", "Mantener los salarios estáticos", "Una política de salarios crecientes", "Eliminar el salario mínimo"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Figueres proponía la 'Doctrina social y jornales crecientes', argumentando que mejores salarios aumentan la productividad."
+        },
+        {
+          "pregunta": "¿Qué porcentaje del salario puede embargarse por pensión alimenticia?",
+          "opciones": ["25%", "30%", "50%", "75%"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El salario es inembargable excepto por pensión alimenticia, donde el embargo puede ser del 50%."
+        },
+        {
+          "pregunta": "¿Cuál situación NO se considera accidente de trabajo?",
+          "opciones": ["Accidente en el trayecto hogar-trabajo", "Accidente por acatar órdenes del patrono fuera del horario", "Accidente provocado intencionalmente por el trabajador", "Accidente durante una paralización en la jornada"],
+          "respuestaCorrecta": 2,
+          "explicacion": "No se consideran riesgos del trabajo los provocados intencionalmente ni los bajo efectos de licor o drogas."
+        },
+        {
+          "pregunta": "¿De quién son propiedad los fondos de capitalización laboral?",
+          "opciones": ["Del patrono", "Del Estado", "De los trabajadores", "De la CCSS"],
+          "respuestaCorrecta": 2,
+          "explicacion": "La Ley de Protección al Trabajador establece que los fondos de capitalización son propiedad de los trabajadores."
+        },
+        {
+          "pregunta": "¿Qué horario comprende el trabajo nocturno?",
+          "opciones": ["De 6pm a 6am", "De 7pm a 5am", "De 8pm a 4am", "De 9pm a 5am"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El trabajo nocturno se realiza entre las 19 horas (7pm) y las 5 horas (5am)."
+        },
+        {
+          "pregunta": "¿En qué idioma deben darse las órdenes en toda empresa?",
+          "opciones": ["En el idioma del patrono", "En inglés o español", "En español", "En cualquier idioma oficial"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El Código de Trabajo establece que las órdenes deben ser dadas en español."
+        },
+        {
+          "pregunta": "¿Puede un patrono despedir a una trabajadora embarazada?",
+          "opciones": ["Sí, sin restricciones", "No, nunca bajo ninguna circunstancia", "Solo por causa justificada comprobada ante el Ministerio de Trabajo", "Solo si le paga doble indemnización"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Está prohibido despedir trabajadoras embarazadas o en lactancia, salvo por causa justificada comprobada ante el Ministerio de Trabajo."
+        }
+      ],
+      "verdaderoFalso": [
+        {
+          "afirmacion": "El contrato de trabajo solo puede ser escrito.",
+          "respuesta": false,
+          "explicacion": "Según el Código de Trabajo, el contrato puede ser verbal o escrito."
+        },
+        {
+          "afirmacion": "La jornada extraordinaria más la ordinaria no pueden exceder las 12 horas.",
+          "respuesta": true,
+          "explicacion": "Correcto, según el Código de Trabajo."
+        },
+        {
+          "afirmacion": "El artículo 68 permite la discriminación salarial entre nacionales y extranjeros.",
+          "respuesta": false,
+          "explicacion": "El artículo 68 prohíbe la discriminación salarial entre costarricenses y extranjeros."
+        },
+        {
+          "afirmacion": "Los patronos pueden obligar a trabajadores a comprar en determinados establecimientos.",
+          "respuesta": false,
+          "explicacion": "Esto está expresamente prohibido en el Código de Trabajo."
+        },
+        {
+          "afirmacion": "El seguro contra riesgos del trabajo es obligatorio y universal según el artículo 201.",
+          "respuesta": true,
+          "explicacion": "Correcto, el artículo 201 establece la obligatoriedad y universalidad del seguro."
+        },
+        {
+          "afirmacion": "Un accidente en el trayecto hogar-trabajo siempre se considera accidente de trabajo.",
+          "respuesta": false,
+          "explicacion": "Solo se considera accidente de trabajo cuando el patrono costea el transporte o el acceso presenta riesgo especial."
+        },
+        {
+          "afirmacion": "El salario mínimo se fija una sola vez y no cambia.",
+          "respuesta": false,
+          "explicacion": "El artículo 57 establece que el salario mínimo es de fijación periódica."
+        }
+      ],
+      "pareos": [
+        {
+          "titulo": "Conceptos laborales",
+          "columnaA": ["Preaviso", "Cesantía", "Salario", "Jornada mixta"],
+          "columnaB": ["Aviso anticipado antes de terminar un contrato", "Compensación por despido injustificado", "Retribución que el patrono paga al trabajador", "Combinación de horas diurnas y nocturnas (máx. 8h)"],
+          "respuestas": [0, 1, 2, 3]
+        },
+        {
+          "titulo": "Artículos constitucionales",
+          "columnaA": ["Artículo 56", "Artículo 57", "Artículo 68"],
+          "columnaB": ["Trabajo: derecho y obligación", "Salario mínimo de fijación periódica", "No discriminación salarial"],
+          "respuestas": [0, 1, 2]
+        },
+        {
+          "titulo": "Leyes y años",
+          "columnaA": ["Código de Trabajo", "Discurso de Figueres", "Ley de Protección al Trabajador"],
+          "columnaB": ["1943", "1949", "2000"],
+          "respuestas": [0, 1, 2]
+        }
+      ]
+    },
+    "tema6": {
+      "seleccionUnica": [
+        {
+          "pregunta": "¿Qué son las políticas selectivas?",
+          "opciones": ["Políticas que benefician a toda la población", "Acciones dirigidas a un sector específico para que accedan a beneficios universales", "Políticas que solo aplican a empleados públicos", "Leyes que regulan las elecciones"],
+          "respuestaCorrecta": 1,
+          "explicacion": "Las políticas selectivas son acciones del Estado para proveer servicios a un sector específico."
+        },
+        {
+          "pregunta": "¿En qué año se creó la Cooperativa de Casas Baratas?",
+          "opciones": ["1940", "1942", "1945", "1954"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El 13 de agosto de 1942 el Congreso aprobó su creación."
+        },
+        {
+          "pregunta": "¿Cuál es la finalidad principal del IMAS?",
+          "opciones": ["Administrar los seguros sociales", "Regular el comercio", "Resolver el problema de la pobreza extrema", "Gestionar la educación pública"],
+          "respuestaCorrecta": 2,
+          "explicacion": "La finalidad del IMAS es resolver el problema de la pobreza extrema en el país."
+        },
+        {
+          "pregunta": "¿Qué ley creó el Fodesaf?",
+          "opciones": ["Ley 4760", "Ley 5662", "Ley 7983", "Ley 9903"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El Fodesaf fue creado mediante la Ley 5662 de 1974."
+        },
+        {
+          "pregunta": "¿Qué es el Programa Avancemos?",
+          "opciones": ["Un programa de vacunación", "Un programa de vivienda social", "Una transferencia monetaria condicionada para que jóvenes no abandonen el colegio", "Un programa de pensiones para adultos mayores"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Avancemos es una transferencia monetaria condicionada que promueve la permanencia en el sistema educativo."
+        },
+        {
+          "pregunta": "¿Por qué cerró el FONABE en 2020?",
+          "opciones": ["Porque no tenía fondos", "Porque la Ley N.° 9903 unificó las transferencias en SUPRES administrado por el IMAS", "Porque fue declarado inconstitucional", "Porque cumplió su objetivo"],
+          "respuestaCorrecta": 1,
+          "explicacion": "La Ley N.° 9903 unificó las transferencias monetarias a estudiantes en el SUPRES para evitar duplicidades."
+        },
+        {
+          "pregunta": "¿Qué criterio NO se usa para priorizar beneficiarios del Panea?",
+          "opciones": ["Familias con ingreso económico bajo", "Estudiantes con problemas nutricionales", "Estudiantes con las mejores calificaciones", "Estudiantes con sospecha de riesgo psicosocial"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Los criterios del Panea son: ingreso bajo, problemas nutricionales y riesgo psicosocial. Las calificaciones no son criterio."
+        },
+        {
+          "pregunta": "¿Qué artículo de la Constitución elevó la vivienda social a precepto constitucional?",
+          "opciones": ["Artículo 56", "Artículo 65", "Artículo 68", "Artículo 72"],
+          "respuestaCorrecta": 1,
+          "explicacion": "El artículo 65 elevó a precepto constitucional el interés del Estado por la vivienda de interés social."
+        },
+        {
+          "pregunta": "¿Quiénes pueden ser beneficiarios del régimen no contributivo?",
+          "opciones": ["Solo personas mayores de 65 años", "Solo personas inválidas", "Personas en estado de necesidad económica que pertenezcan a grupos vulnerables", "Todos los costarricenses sin excepción"],
+          "respuestaCorrecta": 2,
+          "explicacion": "Los beneficiarios incluyen adultos mayores, inválidos, viudas/os con hijos, huérfanos y personas entre 50 y 65 que no pueden trabajar."
+        },
+        {
+          "pregunta": "¿Cuánto ha permanecido el porcentaje de personas pobres en CR desde 1994?",
+          "opciones": ["Alrededor del 10%", "Alrededor del 15%", "Alrededor del 20%", "Alrededor del 30%"],
+          "respuestaCorrecta": 2,
+          "explicacion": "El porcentaje de personas pobres se ha mantenido alrededor del 20% desde 1994."
+        }
+      ],
+      "verdaderoFalso": [
+        {
+          "afirmacion": "Las políticas selectivas benefician a toda la población por igual.",
+          "respuesta": false,
+          "explicacion": "Las políticas selectivas se dirigen a un sector específico, no a toda la población."
+        },
+        {
+          "afirmacion": "El IMAS fue creado en 1971 según la Ley 4760.",
+          "respuesta": true,
+          "explicacion": "Correcto, el IMAS fue creado por la Ley 4760 del 30 de abril de 1971."
+        },
+        {
+          "afirmacion": "Las casas de la Cooperativa de Casas Baratas se podían alquilar libremente.",
+          "respuesta": false,
+          "explicacion": "Se impedía alquilar, gravar o enajenar la propiedad sin autorización de la Junta Directiva."
+        },
+        {
+          "afirmacion": "El Panea es un programa universal que cubre a todos los estudiantes.",
+          "respuesta": false,
+          "explicacion": "El Panea no es universal sino de carácter social focalizado."
+        },
+        {
+          "afirmacion": "El Fodesaf financia el régimen no contributivo de pensiones.",
+          "respuesta": true,
+          "explicacion": "Correcto, parte del Fodesaf financia el régimen no contributivo."
+        },
+        {
+          "afirmacion": "Avancemos es ejecutado por el Ministerio de Educación.",
+          "respuesta": false,
+          "explicacion": "Avancemos es ejecutado por el IMAS, no por el MEP."
+        },
+        {
+          "afirmacion": "El INVU fue creado en 1954 mediante la Ley 1788.",
+          "respuesta": true,
+          "explicacion": "Correcto, el INVU fue creado en 1954 por la Ley 1788."
+        }
+      ],
+      "pareos": [
+        {
+          "titulo": "Instituciones y funciones",
+          "columnaA": ["IMAS", "Fodesaf", "Panea", "Avancemos"],
+          "columnaB": ["Resuelve pobreza extrema", "Financia programas sociales contra la pobreza", "Alimentación complementaria escolar", "Beca condicionada para secundaria"],
+          "respuestas": [0, 1, 2, 3]
+        },
+        {
+          "titulo": "Años de creación",
+          "columnaA": ["Cooperativa Casas Baratas", "INVU", "IMAS", "Régimen no contributivo"],
+          "columnaB": ["1942", "1954", "1971", "1975"],
+          "respuestas": [0, 1, 2, 3]
+        },
+        {
+          "titulo": "Programas y características",
+          "columnaA": ["Avancemos", "FONABE", "Panea", "Régimen no contributivo"],
+          "columnaB": ["Familia firma contrato con el IMAS", "Cerró en 2020 y se unificó en SUPRES", "Abre comedores en vacaciones en zonas vulnerables", "Para personas que nunca cotizaron"],
+          "respuestas": [0, 1, 2, 3]
+        }
+      ]
+    }
+  }
+}

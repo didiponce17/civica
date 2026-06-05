@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#FF6B6B">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Cívica CR">
+    <meta name="description" content="App de estudio de Educación Cívica para quinto año - Costa Rica">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <title>Cívica CR — Estudio Interactivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pantalla de carga -->
+    <div id="pantalla-carga" class="pantalla-carga">
+        <div class="carga-contenido">
+            <div class="carga-emoji">📚</div>
+            <h1>Cívica CR</h1>
+            <p>Cargando tu material de estudio...</p>
+            <div class="carga-barra"><div class="carga-progreso"></div></div>
+        </div>
+    </div>
+
+    <!-- Error de carga -->
+    <div id="pantalla-error" class="pantalla-error oculto">
+        <div class="error-contenido">
+            <div class="error-emoji">😅</div>
+            <h2>¡Ups! Algo salió mal</h2>
+            <p id="error-mensaje">No se pudieron cargar los datos.</p>
+            <button id="btn-reintentar" class="btn-primario">Reintentar 🔄</button>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <main id="app" class="app oculto">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="header-titulo">📚 Cívica CR</h1>
+            <p class="header-subtitulo">Educación Cívica — Quinto Año</p>
+        </header>
+
+        <!-- Secciones de contenido -->
+        <div class="contenido-principal">
+            <!-- Sección Resumen -->
+            <section id="seccion-resumen" class="seccion activa">
+                <div class="seccion-header">
+                    <h2>📚 Resumen de Estudio</h2>
+                    <div class="buscador-contenedor">
+                        <input type="search" id="buscador" placeholder="🔍 Buscar temas..." class="buscador-input" aria-label="Buscar temas">
+                    </div>
+                </div>
+                <div id="lista-temas" class="lista-temas"></div>
+            </section>
+
+            <!-- Sección Quiz -->
+            <section id="seccion-quiz" class="seccion">
+                <div class="seccion-header">
+                    <h2>📝 Quiz Interactivo</h2>
+                </div>
+                <!-- Selector de quiz -->
+                <div id="quiz-selector" class="quiz-selector">
+                    <p class="quiz-instruccion">Selecciona un tema para practicar o haz un quiz general:</p>
+                    <button class="btn-quiz-tema btn-quiz-general" data-tema="todos">
+                        🎯 Quiz General (todos los temas)
+                    </button>
+                    <div id="quiz-temas-lista" class="quiz-temas-lista"></div>
+                    <div class="quiz-tipo-selector">
+                        <p class="quiz-instruccion">Tipo de preguntas:</p>
+                        <div class="quiz-tipos-btns">
+                            <button class="btn-tipo-quiz activo" data-tipo="todos">📋 Todos</button>
+                            <button class="btn-tipo-quiz" data-tipo="seleccionUnica">🔘 Selección</button>
+                            <button class="btn-tipo-quiz" data-tipo="verdaderoFalso">✅ V/F</button>
+                            <button class="btn-tipo-quiz" data-tipo="pareos">🔗 Pareos</button>
+                        </div>
+                    </div>
+                    <!-- Modo repaso -->
+                    <div id="modo-repaso-contenedor" class="modo-repaso-contenedor oculto">
+                        <button id="btn-modo-repaso" class="btn-modo-repaso">
+                            🔄 Modo Repaso (preguntas falladas)
+                        </button>
+                    </div>
+                </div>
+                <!-- Área del quiz activo -->
+                <div id="quiz-activo" class="quiz-activo oculto">
+                    <div class="quiz-progreso-barra">
+                        <div id="quiz-progreso-fill" class="quiz-progreso-fill"></div>
+                    </div>
+                    <p id="quiz-contador" class="quiz-contador"></p>
+                    <div id="quiz-pregunta-area" class="quiz-pregunta-area"></div>
+                    <button id="btn-siguiente-pregunta" class="btn-primario oculto">Siguiente ➡️</button>
+                </div>
+                <!-- Resultados del quiz -->
+                <div id="quiz-resultados" class="quiz-resultados oculto">
+                    <div class="resultado-card">
+                        <div id="resultado-emoji" class="resultado-emoji"></div>
+                        <h3 id="resultado-mensaje"></h3>
+                        <div class="resultado-stats">
+                            <div class="stat">
+                                <span class="stat-numero" id="resultado-correctas">0</span>
+                                <span class="stat-label">Correctas</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-numero" id="resultado-total">0</span>
+                                <span class="stat-label">Total</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-numero" id="resultado-porcentaje">0%</span>
+                                <span class="stat-label">Puntaje</span>
+                            </div>
+                        </div>
+                        <div class="resultado-botones">
+                            <button id="btn-repetir-quiz" class="btn-primario">Repetir Quiz 🔄</button>
+                            <button id="btn-nuevo-quiz" class="btn-secundario">Nuevo Quiz 📝</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Mapas -->
+            <section id="seccion-mapas" class="seccion">
+                <div class="seccion-header">
+                    <h2>🗺️ Mapas Conceptuales</h2>
+                </div>
+                <div id="lista-mapas" class="lista-mapas"></div>
+            </section>
+
+            <!-- Sección Progreso -->
+            <section id="seccion-progreso" class="seccion">
+                <div class="seccion-header">
+                    <h2>📊 Mi Progreso</h2>
+                </div>
+                <div class="progreso-resumen">
+                    <div class="progreso-card">
+                        <span class="progreso-card-emoji">📖</span>
+                        <span class="progreso-card-valor" id="prog-temas-revisados">0%</span>
+                        <span class="progreso-card-label">Temas revisados</span>
+                    </div>
+                    <div class="progreso-card">
+                        <span class="progreso-card-emoji">📝</span>
+                        <span class="progreso-card-valor" id="prog-quizzes-completados">0</span>
+                        <span class="progreso-card-label">Quizzes hechos</span>
+                    </div>
+                    <div class="progreso-card">
+                        <span class="progreso-card-emoji">🎯</span>
+                        <span class="progreso-card-valor" id="prog-promedio">0%</span>
+                        <span class="progreso-card-label">Promedio</span>
+                    </div>
+                </div>
+                <div class="progreso-detalle">
+                    <h3>📈 Progreso por tema</h3>
+                    <div id="progreso-por-tema"></div>
+                </div>
+                <div class="progreso-detalle">
+                    <h3>💪 Temas más fuertes</h3>
+                    <div id="temas-fuertes" class="temas-ranking"></div>
+                </div>
+                <div class="progreso-detalle">
+                    <h3>📖 Temas a mejorar</h3>
+                    <div id="temas-debiles" class="temas-ranking"></div>
+                </div>
+                <div class="progreso-reset">
+                    <button id="btn-resetear" class="btn-peligro">🗑️ Resetear progreso</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Navegación inferior (tabs) -->
+    <nav id="nav-tabs" class="nav-tabs oculto" aria-label="Navegación principal">
+        <button class="nav-tab activa" data-seccion="resumen" aria-label="Resumen">
+            <span class="nav-tab-emoji">📚</span>
+            <span class="nav-tab-texto">Resumen</span>
+        </button>
+        <button class="nav-tab" data-seccion="quiz" aria-label="Quiz">
+            <span class="nav-tab-emoji">📝</span>
+            <span class="nav-tab-texto">Quiz</span>
+        </button>
+        <button class="nav-tab" data-seccion="mapas" aria-label="Mapas">
+            <span class="nav-tab-emoji">🗺️</span>
+            <span class="nav-tab-texto">Mapas</span>
+        </button>
+        <button class="nav-tab" data-seccion="progreso" aria-label="Progreso">
+            <span class="nav-tab-emoji">📊</span>
+            <span class="nav-tab-texto">Progreso</span>
+        </button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
